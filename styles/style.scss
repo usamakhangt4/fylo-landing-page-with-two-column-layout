@@ -1,0 +1,53 @@
+@import "./variables";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+// navbar
+.navbar {
+  //   width: 90%;
+  margin: auto;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      img {
+        background-size: cover;
+        width: 100%;
+      }
+    }
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
+
+        a {
+          text-decoration: none;
+          display: block;
+          padding: 14px 16px;
+          font-size: 1.1em;
+          font-weight: bold;
+          font-family: "Raleway", sans-serif;
+        }
+      }
+    }
+  }
+}
+// hero section
+.main {
+  outline: 1px solid red;
+  display: flex;
+  height: 70vh;
+  .image {
+    height: 50%;
+    width: 50%;
+    img {
+      background-size: contain;
+    }
+  }
+}
