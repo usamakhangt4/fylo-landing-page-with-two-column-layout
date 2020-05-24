@@ -350,3 +350,25 @@ body {
     }
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  #section1 {
+    .main {
+      height: auto;
+      flex-direction: column-reverse;
+      .content {
+        align-items: center;
+        text-align: center;
+        form {
+          flex-direction: column;
+          align-items: center;
+          button {
+            margin-top: 5%;
+            margin-right: auto;
+            width: 360px;
+          }
+        }
+      }
+    }
+  }
+}
