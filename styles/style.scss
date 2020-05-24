@@ -333,7 +333,7 @@ body {
       .fab {
         border: 1px solid white;
         border-radius: 50%;
-        padding: 3%;
+        padding: 5%;
         font-size: 1.3em;
       }
     }
@@ -353,6 +353,20 @@ body {
 
 @media only screen and (max-width: 1200px) {
   #section1 {
+    .navbar {
+      nav {
+        ul {
+          li {
+            a {
+              padding: 6px 8px;
+              font-size: 18px;
+              font-weight: bold;
+              font-family: "Raleway", sans-serif;
+            }
+          }
+        }
+      }
+    }
     .main {
       height: auto;
       flex-direction: column-reverse;
@@ -368,6 +382,56 @@ body {
             width: 360px;
           }
         }
+      }
+    }
+  }
+
+  #section2 {
+    height: auto;
+    .productive {
+      flex-direction: column-reverse;
+      justify-content: center;
+      text-align: center;
+      .content {
+        .testimonialCard {
+          margin: auto;
+          margin-top: 5%;
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  #section3 {
+    .earlyAccess {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      .paragraph {
+        margin: auto;
+        font-size: 1.3em;
+        font-weight: 400;
+      }
+      form {
+        margin-top: 5%;
+        button {
+          margin: auto;
+          margin-top: 2%;
+          width: 500px;
+        }
+      }
+    }
+  }
+
+  #section4 {
+    footer {
+      grid-template-columns: repeat(1, 1fr);
+      font-size: 1.3em;
+      line-height: 30px;
+    }
+    .coder {
+      span {
+        font-size: 1.3em !important;
       }
     }
   }

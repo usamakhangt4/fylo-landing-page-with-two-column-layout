@@ -444,7 +444,7 @@ body {
 #section4 footer .social .fab {
   border: 1px solid white;
   border-radius: 50%;
-  padding: 3%;
+  padding: 5%;
   font-size: 1.3em;
 }
 
@@ -468,6 +468,12 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
+  #section1 .navbar nav ul li a {
+    padding: 6px 8px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+  }
   #section1 .main {
     height: auto;
     -webkit-box-orient: vertical;
@@ -494,6 +500,56 @@ body {
     margin-top: 5%;
     margin-right: auto;
     width: 360px;
+  }
+  #section2 {
+    height: auto;
+  }
+  #section2 .productive {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  #section2 .productive .content .testimonialCard {
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+  }
+  #section3 .earlyAccess {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  #section3 .earlyAccess .paragraph {
+    margin: auto;
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+  #section3 .earlyAccess form {
+    margin-top: 5%;
+  }
+  #section3 .earlyAccess form button {
+    margin: auto;
+    margin-top: 2%;
+    width: 500px;
+  }
+  #section4 footer {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    font-size: 1.3em;
+    line-height: 30px;
+  }
+  #section4 .coder span {
+    font-size: 1.3em !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
